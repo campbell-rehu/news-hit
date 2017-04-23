@@ -1,12 +1,13 @@
 var express = require('express'),   
-    app = express();
+    app = express(),
+    port = 8000;
 
-app.use(express.static('../build'));
+app.use(express.static('/build'));
 
 app.get('/', function(req, res){
-    res.send('Hello World');
+    res.sendFile('index.html');
 });
 
-app.listen(4000, function(){
-    console.log('server listening on port 3000...');
+app.listen(port, function(){
+    console.log(`server listening on port ${port}...`);
 });
