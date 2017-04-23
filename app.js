@@ -1,6 +1,6 @@
 var express = require('express'),   
     app = express(),
-    port = process.env === 'production' ? process.env.PORT : 2001,
+    port = process.env.PORT || 2001,
     path = require('path');
 
 app.use(express.static(path.join(__dirname, '/build')));
