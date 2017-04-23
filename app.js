@@ -1,11 +1,12 @@
 var express = require('express'),   
     app = express(),
-    port = 8000;
+    port = process.env === 'production' ? process.env.PORT : 2001,
+    path = require('path');
 
-app.use(express.static('/build'));
+app.use(express.static(path.join(__dirname, '/build')));
 
 app.get('/', function(req, res){
-    res.sendFile('index.html');
+    res.sendFile(path.join(__dirname, 'build/index.html'));
 });
 
 app.listen(port, function(){
