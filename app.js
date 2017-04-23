@@ -3,10 +3,10 @@ var express = require('express'),
     port = process.env.PORT || 7000,
     path = require('path');
 
-app.use(express.static(__dirname +'/build'));
+app.use('/', express.static(__dirname +'/build'));
 
 app.get('/', function(req, res){
-    res.sendFile(__dirname + '/index.html');
+    res.sendFile('index.html');
 });
 
 app.listen(port, function(){
