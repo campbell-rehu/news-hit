@@ -6,6 +6,7 @@
     "react-scripts": "0.9.5"
   },
   "dependencies": {
+    "express": "^4.15.2",
     "jquery": "^3.2.1",
     "lite-server": "^2.3.0",
     "react": "^15.5.4",
