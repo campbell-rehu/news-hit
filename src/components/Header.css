@@ -1,0 +1,12 @@
+h1 {
+    font-family: 'Pacifico', 'cursive';
+    margin: 0;
+    font-size: 70px;
+    color: white;
+}
+#header {
+    background-color: #5497A7;
+    padding: 20px 0;
+    border-bottom: 5px solid white;
+    margin-bottom: 5px;
+}

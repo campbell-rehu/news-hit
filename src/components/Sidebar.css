@@ -1,0 +1,21 @@
+h3 {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+#sidebar {
+    background-color: #324A5F;
+    width: 15%;
+    margin: 5px;
+    float: left;
+    color: #CCC9DC;
+}
+
+#sidebar a {
+    color: #CCC9DC;
+    text-decoration: none;
+}
+
+#sidebar a:hover {
+    color: #fff;
+}
