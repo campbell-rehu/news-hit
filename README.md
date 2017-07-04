@@ -1,5 +1,7 @@
 # News Application built with React
 
+![app](images/app-screenshot.png)
+
 ## Introduction
 
 This application retrieves the top and latest headlines from a number of sources. The news content is retrieved from [NewsAPI.org](https://newsapi.org/) which is a fantastic resource.
