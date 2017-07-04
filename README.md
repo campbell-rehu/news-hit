@@ -6,6 +6,8 @@
 
 This application retrieves the top and latest headlines from a number of sources. The news content is retrieved from [NewsAPI.org](https://newsapi.org/) which is a fantastic resource.
 
+The app is hosted at [newshit.surge.sh](http://newshit.surge.sh).
+
 ## Thoughts
 
 ### Connecting to a Service
